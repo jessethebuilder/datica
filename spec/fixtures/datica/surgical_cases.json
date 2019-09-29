@@ -1,0 +1,912 @@
+[
+  {
+    "AdministeredBloodProducts": [
+      {
+        "BloodProduct": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "EstimatedAmount": "sample string 1",
+        "Unit": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "BloodProduct": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "EstimatedAmount": "sample string 1",
+        "Unit": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "AnesthesiaStaffCost": "sample string 1",
+    "AnesthesiaType": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "AnesthesiaTypeLocations": [
+      {
+        "AnesthesiaLocation": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "AnesthesiaType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "AnesthesiaLocation": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "AnesthesiaType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "ASAClass": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "CaseBlocks": [
+      {
+        "BlockDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "BlockType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "Surgeon": {
+          "Name": "sample string 1",
+          "NPI": "sample string 2",
+          "UserId": "sample string 3",
+          "ProviderId": "sample string 4"
+        },
+        "SurgeonGroup": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "SurgicalService": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "BlockDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "BlockType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "Surgeon": {
+          "Name": "sample string 1",
+          "NPI": "sample string 2",
+          "UserId": "sample string 3",
+          "ProviderId": "sample string 4"
+        },
+        "SurgeonGroup": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "SurgicalService": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "CaseClass": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "CaseCreationDateTime": "2019-09-28T01:48:47.2758733Z",
+    "CaseDelays": [
+      {
+        "DelayComment": "sample string 1",
+        "DelayDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "DelayReason": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "DelayComment": "sample string 1",
+        "DelayDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "DelayReason": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "CleanUpDuration": {
+      "DurationUnit": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      },
+      "Time": "sample string 1"
+    },
+    "Complexity": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "CreatedUpdatedDateTime": "2019-09-28T01:48:47.2758733Z",
+    "Encounter": {
+      "EncounterId": "sample string 1",
+      "EncounterType": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      },
+      "PatientClass": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      },
+      "EncounterDateTime": "2019-09-28T01:48:47.2758733Z",
+      "DischargeDateTime": "2019-09-28T01:48:47.2758733Z",
+      "FinancialNumber": "sample string 2",
+      "Location": {
+        "BedId": "sample string 1",
+        "Bed": "sample string 2",
+        "RoomId": "sample string 3",
+        "Room": "sample string 4",
+        "UnitId": "sample string 5",
+        "Unit": "sample string 6",
+        "HospitalId": "sample string 7",
+        "Hospital": "sample string 8"
+      }
+    },
+    "EstimatedBloodLoss": "sample string 2",
+    "EstimatedBloodLossUnit": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "IsAddOn": true,
+    "IsFirstCase": true,
+    "NumberOfPanels": "sample string 5",
+    "OperatingRoomId": "sample string 6",
+    "OperatingRoomName": "sample string 7",
+    "Patient": {
+      "PatientId": "sample string 1",
+      "DisplayName": "sample string 2",
+      "LastName": "sample string 3",
+      "FirstName": "sample string 4",
+      "MiddleName": "sample string 5",
+      "MRN": "sample string 6",
+      "BirthDateTime": "2019-09-27",
+      "Gender": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      }
+    },
+    "PendingStatus": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "PreOpAppointments": [
+      {
+        "AppointmentId": "sample string 1",
+        "PreOpAppointmentId": "sample string 2",
+        "Procedure": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "AppointmentId": "sample string 1",
+        "PreOpAppointmentId": "sample string 2",
+        "Procedure": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "PreOpPreperations": [
+      {
+        "Areas": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "Laterality": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "ScrubSolutions": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ]
+      },
+      {
+        "Areas": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "Laterality": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "ScrubSolutions": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ]
+      }
+    ],
+    "ProgressStatus": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "ProjectedEndDateTime": "2019-09-28T01:48:47.2758733Z",
+    "ProjectedStartDateTime": "2019-09-28T01:48:47.2758733Z",
+    "SchedulingStatus": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "SetUpDuration": {
+      "DurationUnit": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      },
+      "Time": "sample string 1"
+    },
+    "SurgeonCost": "sample string 8",
+    "SurgeryEndDateTime": "2019-09-28T01:48:47.2758733Z",
+    "SurgeryStartDateTime": "2019-09-28T01:48:47.2758733Z",
+    "SurgicalCaseId": "sample string 9",
+    "SurgicalCaseName": "sample string 10",
+    "SurgicalEvents": [
+      {
+        "EventType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "EventDateTime": "2019-09-28T01:48:47.2758733Z"
+      },
+      {
+        "EventType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "EventDateTime": "2019-09-28T01:48:47.2758733Z"
+      }
+    ],
+    "SurgicalProcedures": [
+      {
+        "AnesthesiaType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "IncisionCloseDateTime": "2019-09-28T01:48:47.2758733Z",
+        "IncisionStartDateTime": "2019-09-28T01:48:47.2758733Z",
+        "OperativeRegions": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "PreferenceCards": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "ProcedureCodeId": "sample string 1",
+        "ProcedureCodeName": "sample string 2",
+        "ProcedureDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "ProcedureOrdinal": "sample string 3",
+        "SurgicalService": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "WoundClass": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "AnesthesiaType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "IncisionCloseDateTime": "2019-09-28T01:48:47.2758733Z",
+        "IncisionStartDateTime": "2019-09-28T01:48:47.2758733Z",
+        "OperativeRegions": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "PreferenceCards": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "ProcedureCodeId": "sample string 1",
+        "ProcedureCodeName": "sample string 2",
+        "ProcedureDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "ProcedureOrdinal": "sample string 3",
+        "SurgicalService": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "WoundClass": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "SurgicalService": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "SurgicalStaff": [
+      {
+        "Provider": {
+          "ProviderId": "sample string 1",
+          "ProviderName": "sample string 2"
+        },
+        "Type": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "Provider": {
+          "ProviderId": "sample string 1",
+          "ProviderName": "sample string 2"
+        },
+        "Type": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "SurgicalStaffCost": "sample string 11",
+    "TimeOut": {
+      "Id": "sample string 1",
+      "Name": "sample string 2",
+      "Type": "sample string 3"
+    },
+    "TotalCost": "sample string 12",
+    "TotalDuration": {
+      "DurationUnit": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      },
+      "Time": "sample string 1"
+    }
+  },
+  {
+    "AdministeredBloodProducts": [
+      {
+        "BloodProduct": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "EstimatedAmount": "sample string 1",
+        "Unit": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "BloodProduct": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "EstimatedAmount": "sample string 1",
+        "Unit": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "AnesthesiaStaffCost": "sample string 1",
+    "AnesthesiaType": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "AnesthesiaTypeLocations": [
+      {
+        "AnesthesiaLocation": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "AnesthesiaType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "AnesthesiaLocation": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "AnesthesiaType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "ASAClass": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "CaseBlocks": [
+      {
+        "BlockDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "BlockType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "Surgeon": {
+          "Name": "sample string 1",
+          "NPI": "sample string 2",
+          "UserId": "sample string 3",
+          "ProviderId": "sample string 4"
+        },
+        "SurgeonGroup": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "SurgicalService": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "BlockDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "BlockType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "Surgeon": {
+          "Name": "sample string 1",
+          "NPI": "sample string 2",
+          "UserId": "sample string 3",
+          "ProviderId": "sample string 4"
+        },
+        "SurgeonGroup": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "SurgicalService": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "CaseClass": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "CaseCreationDateTime": "2019-09-28T01:48:47.2758733Z",
+    "CaseDelays": [
+      {
+        "DelayComment": "sample string 1",
+        "DelayDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "DelayReason": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "DelayComment": "sample string 1",
+        "DelayDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "DelayReason": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "CleanUpDuration": {
+      "DurationUnit": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      },
+      "Time": "sample string 1"
+    },
+    "Complexity": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "CreatedUpdatedDateTime": "2019-09-28T01:48:47.2758733Z",
+    "Encounter": {
+      "EncounterId": "sample string 1",
+      "EncounterType": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      },
+      "PatientClass": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      },
+      "EncounterDateTime": "2019-09-28T01:48:47.2758733Z",
+      "DischargeDateTime": "2019-09-28T01:48:47.2758733Z",
+      "FinancialNumber": "sample string 2",
+      "Location": {
+        "BedId": "sample string 1",
+        "Bed": "sample string 2",
+        "RoomId": "sample string 3",
+        "Room": "sample string 4",
+        "UnitId": "sample string 5",
+        "Unit": "sample string 6",
+        "HospitalId": "sample string 7",
+        "Hospital": "sample string 8"
+      }
+    },
+    "EstimatedBloodLoss": "sample string 2",
+    "EstimatedBloodLossUnit": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "IsAddOn": true,
+    "IsFirstCase": true,
+    "NumberOfPanels": "sample string 5",
+    "OperatingRoomId": "sample string 6",
+    "OperatingRoomName": "sample string 7",
+    "Patient": {
+      "PatientId": "sample string 1",
+      "DisplayName": "sample string 2",
+      "LastName": "sample string 3",
+      "FirstName": "sample string 4",
+      "MiddleName": "sample string 5",
+      "MRN": "sample string 6",
+      "BirthDateTime": "2019-09-27",
+      "Gender": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      }
+    },
+    "PendingStatus": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "PreOpAppointments": [
+      {
+        "AppointmentId": "sample string 1",
+        "PreOpAppointmentId": "sample string 2",
+        "Procedure": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "AppointmentId": "sample string 1",
+        "PreOpAppointmentId": "sample string 2",
+        "Procedure": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "PreOpPreperations": [
+      {
+        "Areas": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "Laterality": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "ScrubSolutions": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ]
+      },
+      {
+        "Areas": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "Laterality": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "ScrubSolutions": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ]
+      }
+    ],
+    "ProgressStatus": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "ProjectedEndDateTime": "2019-09-28T01:48:47.2758733Z",
+    "ProjectedStartDateTime": "2019-09-28T01:48:47.2758733Z",
+    "SchedulingStatus": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "SetUpDuration": {
+      "DurationUnit": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      },
+      "Time": "sample string 1"
+    },
+    "SurgeonCost": "sample string 8",
+    "SurgeryEndDateTime": "2019-09-28T01:48:47.2758733Z",
+    "SurgeryStartDateTime": "2019-09-28T01:48:47.2758733Z",
+    "SurgicalCaseId": "sample string 9",
+    "SurgicalCaseName": "sample string 10",
+    "SurgicalEvents": [
+      {
+        "EventType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "EventDateTime": "2019-09-28T01:48:47.2758733Z"
+      },
+      {
+        "EventType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "EventDateTime": "2019-09-28T01:48:47.2758733Z"
+      }
+    ],
+    "SurgicalProcedures": [
+      {
+        "AnesthesiaType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "IncisionCloseDateTime": "2019-09-28T01:48:47.2758733Z",
+        "IncisionStartDateTime": "2019-09-28T01:48:47.2758733Z",
+        "OperativeRegions": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "PreferenceCards": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "ProcedureCodeId": "sample string 1",
+        "ProcedureCodeName": "sample string 2",
+        "ProcedureDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "ProcedureOrdinal": "sample string 3",
+        "SurgicalService": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "WoundClass": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "AnesthesiaType": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "IncisionCloseDateTime": "2019-09-28T01:48:47.2758733Z",
+        "IncisionStartDateTime": "2019-09-28T01:48:47.2758733Z",
+        "OperativeRegions": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "PreferenceCards": [
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          }
+        ],
+        "ProcedureCodeId": "sample string 1",
+        "ProcedureCodeName": "sample string 2",
+        "ProcedureDuration": {
+          "DurationUnit": {
+            "Id": "sample string 1",
+            "Name": "sample string 2"
+          },
+          "Time": "sample string 1"
+        },
+        "ProcedureOrdinal": "sample string 3",
+        "SurgicalService": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        },
+        "WoundClass": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "SurgicalService": {
+      "Id": "sample string 1",
+      "Name": "sample string 2"
+    },
+    "SurgicalStaff": [
+      {
+        "Provider": {
+          "ProviderId": "sample string 1",
+          "ProviderName": "sample string 2"
+        },
+        "Type": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      },
+      {
+        "Provider": {
+          "ProviderId": "sample string 1",
+          "ProviderName": "sample string 2"
+        },
+        "Type": {
+          "Id": "sample string 1",
+          "Name": "sample string 2"
+        }
+      }
+    ],
+    "SurgicalStaffCost": "sample string 11",
+    "TimeOut": {
+      "Id": "sample string 1",
+      "Name": "sample string 2",
+      "Type": "sample string 3"
+    },
+    "TotalCost": "sample string 12",
+    "TotalDuration": {
+      "DurationUnit": {
+        "Id": "sample string 1",
+        "Name": "sample string 2"
+      },
+      "Time": "sample string 1"
+    }
+  }
+]
