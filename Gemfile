@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.3'
+ruby '2.5.6'
 
 gem 'mongoid', '~> 6.0'
 gem 'bson_ext'
@@ -13,10 +13,13 @@ gem 'puma', '~> 3.11'
 gem 'jbuilder', '~> 2.5'
 
 gem 'redis', '~> 4.0'
+gem 'sidekiq'
 
 gem 'figaro'
 
 gem 'rest-client'
+
+gem 'tzinfo-data'
 
 # gem 'capistrano-rails', group: :development
 
@@ -44,4 +47,4 @@ group :test do
   gem 'database_cleaner'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
